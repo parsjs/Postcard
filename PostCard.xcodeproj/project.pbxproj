@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB57271B19FBDC990023D28B /* Rainy-Paris-iphone-5s-wallpaper-ilikewallpaper_com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB57271A19FBDC990023D28B /* Rainy-Paris-iphone-5s-wallpaper-ilikewallpaper_com.jpg */; };
+		BB57271D19FCF67F0023D28B /* new-userguide-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB57271C19FCF67F0023D28B /* new-userguide-image.jpg */; };
 		BBE6A87619FB9E0C0007EE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6A87519FB9E0C0007EE09 /* AppDelegate.swift */; };
 		BBE6A87819FB9E0C0007EE09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6A87719FB9E0C0007EE09 /* ViewController.swift */; };
 		BBE6A87B19FB9E0C0007EE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE6A87919FB9E0C0007EE09 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB57271A19FBDC990023D28B /* Rainy-Paris-iphone-5s-wallpaper-ilikewallpaper_com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rainy-Paris-iphone-5s-wallpaper-ilikewallpaper_com.jpg"; sourceTree = "<group>"; };
+		BB57271C19FCF67F0023D28B /* new-userguide-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new-userguide-image.jpg"; sourceTree = "<group>"; };
 		BBE6A87019FB9E0C0007EE09 /* PostCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE6A87419FB9E0C0007EE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBE6A87519FB9E0C0007EE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		BBE6A87319FB9E0C0007EE09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB57271C19FCF67F0023D28B /* new-userguide-image.jpg */,
+				BB57271A19FBDC990023D28B /* Rainy-Paris-iphone-5s-wallpaper-ilikewallpaper_com.jpg */,
 				BBE6A87419FB9E0C0007EE09 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE6A87B19FB9E0C0007EE09 /* Main.storyboard in Resources */,
+				BB57271D19FCF67F0023D28B /* new-userguide-image.jpg in Resources */,
 				BBE6A88019FB9E0C0007EE09 /* LaunchScreen.xib in Resources */,
 				BBE6A87D19FB9E0C0007EE09 /* Images.xcassets in Resources */,
+				BB57271B19FBDC990023D28B /* Rainy-Paris-iphone-5s-wallpaper-ilikewallpaper_com.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +346,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PostCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +358,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PostCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +419,7 @@
 				BBE6A89119FB9E0C0007EE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBE6A89219FB9E0C0007EE09 /* Build configuration list for PBXNativeTarget "PostCardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				BBE6A89419FB9E0C0007EE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
