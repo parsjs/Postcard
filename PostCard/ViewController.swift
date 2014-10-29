@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var buttonOutlet: UIButton!
+    @IBOutlet weak var enterNameLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -33,8 +34,18 @@ class ViewController: UIViewController {
         
         enterMessageTextField.text = "" // Убираю поле текста, стираю весь текст
         enterMessageTextField.resignFirstResponder()//Убираю клавиатуру
+        //Enter name Position
+        
+        enterNameLabel.hidden = false
+        enterNameLabel.text = enterNameTextField.text
+        enterNameLabel.textColor = UIColor.redColor()
+        
+        enterNameTextField.text = ""
+        enterNameTextField.resignFirstResponder()
         
         buttonOutlet.setTitle("Mail Sent", forState: UIControlState.Normal) //Меняю название кнопки
+        
+       
         
         
     }
